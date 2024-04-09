@@ -10,5 +10,5 @@ module "repository" {
   topics             = each.value.topics
   visibility         = each.value.visibility
   owner              = var.owner
-}
 
+}
